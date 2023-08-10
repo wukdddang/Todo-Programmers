@@ -1,0 +1,45 @@
+{
+  "name": "todo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "vercel": "vercel dev"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dayjs": "^1.11.9",
+    "lodash": "^4.17.21",
+    "pinia": "^2.1.6",
+    "sortablejs": "^1.15.0",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.196",
+    "@types/sortablejs": "^1.15.1",
+    "@typescript-eslint/eslint-plugin": "^6.3.0",
+    "@typescript-eslint/parser": "^6.3.0",
+    "@vercel/node": "^2.15.9",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "eslint": "^8.46.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-vue": "^9.16.1",
+    "prettier": "^3.0.1",
+    "sass": "^1.64.2",
+    "typescript": "^5.1.6",
+    "vercel": "^31.2.3",
+    "vite": "^4.4.9",
+    "vue-tsc": "^1.8.5"
+  },
+  "overrides": {
+    "@vercel/node": {
+      "ts-node": "10.9.1",
+      "typescript": "5.1.6"
+    }
+  }
+}
